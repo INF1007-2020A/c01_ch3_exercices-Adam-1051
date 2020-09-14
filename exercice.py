@@ -24,7 +24,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
 
 def to_celsius(temperature: float) -> float:
-    f=(te × 9/5) + 32 =
+    f=(temperature × 9/5) + 32 =
     return f
 
 
