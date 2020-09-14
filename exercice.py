@@ -3,7 +3,7 @@
 
 
 import math
-math/
+
 
 def average(a: float, b: float, c: float) -> float:
     z= (a+b+c)/3
