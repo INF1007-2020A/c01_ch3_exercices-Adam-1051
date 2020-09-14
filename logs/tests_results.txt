@@ -2,19 +2,7 @@ test_average (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... FAIL
 test_to_degrees (__main__.TestExercice) ... FAIL
 test_to_farenheit (__main__.TestExercice) ... FAIL
-test_to_radians (__main__.TestExercice) ... ERROR
-
-======================================================================
-ERROR: test_to_radians (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 37, in test_to_radians
-    output = [exercice.to_radians(*v) for v in values]
-  File "test_exercice.py", line 37, in <listcomp>
-    output = [exercice.to_radians(*v) for v in values]
-  File "/home/runner/work/c01_ch3_exercices-Adam-1051/c01_ch3_exercices-Adam-1051/exercice.py", line 15, in to_radians
-    return x
-NameError: name 'x' is not defined
+test_to_radians (__main__.TestExercice) ... ok
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
@@ -65,6 +53,6 @@ First differing element 0:
 + [32.0, -13.0, 843.8000000000001] : Mauvais calcul de celsius -> farenheit
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 5 tests in 0.001s
 
-FAILED (failures=3, errors=1)
+FAILED (failures=3)
