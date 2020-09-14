@@ -19,6 +19,7 @@ def to_degrees(angle_rads: float) -> tuple:
     piw= math.pi
     d=(angle_rads*360)/(2*piw)
     m=
+    s=
     return d, 0.0, 0.0
 
 
